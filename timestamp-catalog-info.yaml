@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: timestamp-test
+  annotations:
+    backstage.io/createdAt: 4/26/2024, 9:03:39 PM
+spec:
+  type: website
+  lifecycle: development
+  owner: janus-authors
