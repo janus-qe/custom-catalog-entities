@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: argocd-test
+  name: argocd-test2
   annotations:
-    argocd/app-selector: 'app.kubernetes.io/name=nginx'
+    argocd/app-selector: 'pod-template-hash=5c8c768c55'
 spec:
   type: website
   lifecycle: development
