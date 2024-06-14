@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: argocd-test2
+  name: argocd-test3
   annotations:
     argocd/app-selector: 'pod-template-hash=5c8c768c55'
+    argocd/instance-name: 'argoInstance1'
 spec:
   type: website
   lifecycle: development
