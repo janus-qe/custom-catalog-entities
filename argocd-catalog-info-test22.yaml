@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: argocd
   annotations:
-    argocd/app-name: nginx
+    argocd/app-selector: 'app.kubernetes.io/name=nginx'
 spec:
   type: website
   lifecycle: development
