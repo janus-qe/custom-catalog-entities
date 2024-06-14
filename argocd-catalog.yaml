@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: argocd
   annotations:
-    argocd/app-name: argocd
+    argocd/app-name: nginx
 spec:
   type: website
   lifecycle: development
