@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argocd
+  annotations:
+    argocd/app-name: argocd
+spec:
+  type: website
+  lifecycle: development
+  owner: janus-authors
