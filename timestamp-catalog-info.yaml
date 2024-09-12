@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: timestamp-test
+  name: timestamp-test-created
   annotations:
     backstage.io/createdAt: 4/26/2024, 9:03:39 PM
 spec:
@@ -12,7 +12,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: timestamp-test-2
+  name: timestamp-test
 spec:
   type: website
   lifecycle: development
