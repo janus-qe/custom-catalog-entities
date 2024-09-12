@@ -8,3 +8,12 @@ spec:
   type: website
   lifecycle: development
   owner: janus-authors
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: timestamp-test-2
+spec:
+  type: website
+  lifecycle: development
+  owner: janus-authors
