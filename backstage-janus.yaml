@@ -1,0 +1,16 @@
+# Catalog entity for Tekton e2e tests (tekton.spec.ts).
+# Pipelines in CI are labeled backstage.io/kubernetes-id: developer-hub (values_showcase nameOverride).
+# The test navigates to this component by name and opens the CI tab.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-janus
+  title: backstage-janus
+  description: Component for Tekton pipeline e2e tests in RHDH CI.
+  annotations:
+    backstage.io/kubernetes-id: developer-hub
+    tekton.dev/cicd: "true"
+spec:
+  type: website
+  lifecycle: production
+  owner: janus-authors
