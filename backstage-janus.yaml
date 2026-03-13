@@ -5,7 +5,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-janus
-  title: Backstage Janus
+  title: backstage-janus
   description: Component for Tekton pipeline e2e tests in RHDH CI.
   annotations:
     backstage.io/kubernetes-id: developer-hub
